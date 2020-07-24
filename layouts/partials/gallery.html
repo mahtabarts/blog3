@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{{ $data := index .Site.Data }}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    {{ $style := resources.Get "css/style.css" | minify}}
+  	<link rel="stylesheet" href="{{ $style.Permalink }}">
+  </head>
+  <body>
+    <div class="container">
+      <div class="gallery">
+        <h1>{{ $data.gallery.title }}</h1>
+        {{ range $data.gallery.imageList }}
+          <img src="/{{ .src | markdownify }}" alt="">
+            <div class="description">
+              {{ .info | markdownify }}
+            </div>
+        {{ end }}
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{{ $data := index .Site.Data }}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <section class="section-a">
+      <div class="box1">
+        <h1>{{ $data.about.title }}</h1>
+        <p style="margin-bottom:750px;">{{ $data.about.text }}</p>
+      </div>
+    </section>
+  </body>
+</html>

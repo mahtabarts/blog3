@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    {{ $style := resources.Get "css/style.css" | minify}}
+  	<link rel="stylesheet" href="{{ $style.Permalink }}">
+    <title></title>
+  </head>
+  <body>
+    {{ partial "header" . }}
+
+    {{ partial "wrapper.html" . }}
+
+    {{ partial "footer" . }}
+  </body>
+</html>

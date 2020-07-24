@@ -1,0 +1,35 @@
+baseURL = "https://mahtabarts.github.io/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+[params]
+
+  [[params.footer]]
+    icon = "fa-facebook"
+    URL = "https://en-gb.facebook.com/mahtab.basiri"
+
+  [[params.footer]]
+    icon = "fa-instagram"
+    URL = "#"
+
+  [[params.footer]]
+    icon = "fa-linkedin"
+    URL = "https://www.linkedin.com/in/mahtab-basiri-647023176/"
+  [menu]
+
+    [[menu.header]]
+    weight = 1
+    name = "About"
+    url = "/about"
+
+    [[menu.header]]
+    weight = 2
+    name = "Gallery"
+    url = "/gallery"
+
+    [params.wrapper]
+    image = "images/8.jpeg"
+    title = "Welcome TO THE WORLD Of ART"
+    text = "The purpose of this website is to demonstrate all the art works which are done by me in different categories such as my paintings and illustrations."
+    subtitle = "A PORTFOLIO OF THE PAINTINGS AND ILUSTRATION WORKS"
+    url = "/about"

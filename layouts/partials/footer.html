@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{{ $data := index .Site.Data }}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="footer">
+      <div class="center">
+        <div class="social-follow">
+          <h1>Follow Me</h1>
+          <ul class="social">
+            {{ range .Site.Params.footer }}
+            <a href="{{ .URL }}"><i class="fa {{ .icon }}" aria-hidden="true"></i></a>
+            {{ end }}
+          </ul>
+        </div>
+        </div>
+      </div>
+  </body>
+</html>
