@@ -1,20 +1,10 @@
 <!DOCTYPE html>
-{{ $data := index .Site.Data }}
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    {{ $style := resources.Get "css/style.css" | minify}}
-  	<link rel="stylesheet" href="{{ $style.Permalink }}">
-  </head>
-  <body>
-    <div class="nav">
-      <ul>
-        <li><a href="{{ .Site.BaseURL }}">Home</a></li>
-        {{ range .Site.Menus.header }}
-          <li><a href="{{ .URL }}/">{{ .Name }}</a></li>
-        {{ end }}
-      </ul>
-      </div>
-    </div>
-  </body>
+<html lang="en">
+
+<body>
+
+<div class="header">
+</div>
+
+</body>
 </html>

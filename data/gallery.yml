@@ -1,34 +1,37 @@
 title: "IDENTITY ALBUM"
 imageList:
-  - src: images/1.jpeg
-    info: "Info: "
+  - src: images/1-small.jpeg
+    link: images/1.jpeg
+    info: 'Laugh or not?<br>52".42"<br>Oil color<br>2016'
 
-  - src: images/2.jpeg
-    info: "Info: "
+  - src: images/2-small.jpeg
+    link: images/2.jpeg
+    info: 'Immaculacy<br>70".50"<br>Oil color<br>2016'
 
-  - src: images/3.jpeg
-    info: "Info: "
+  - src: images/3-small.jpeg
+    link: images/3.jpeg
+    info: 'Limitation<br>70".50"<br>Oil color<br>2016'
 
-  - src: images/4.jpeg
-    info: "Info: "
+  - src: images/4-small.jpeg
+    link: images/4.jpeg
+    info: 'Passing the redline<br>70".50"<br>Oil color<br>2016'
 
-  - src: images/5.jpeg
-    info: "Info: "
+  - src: images/5-small.jpeg
+    link: images/5.jpeg
+    info: 'Compel (The piece of cloth that wrapped her head was actually used by men in public baths) <br>52".40"<br>Oil color<br>2016'
 
-  - src: images/6.jpeg
-    info: "Info: "
+  - src: images/6-small.jpeg
+    link: images/6.jpeg
+    info: 'Defiant<br>52".42"<br>Oil color<br>2016'
 
-  - src: images/7.jpeg
-    info: "Info: "
+  - src: images/7-small.jpeg
+    link: images/7.jpeg
+    info: 'Treachery<br>39".27"<br>Oil color<br>2015'
 
-  - src: images/8.jpeg
-    info: "Info: "
+  - src: images/8-small.jpeg
+    link: images/8.jpeg
+    info: 'Suffocation<br>47".39"<br>Oil color<br>2015'
 
-  - src: images/9.jpeg
-    info: "Info: "
-
-  - src: images/10.jpeg
-    info: "Info: "
-
-  - src: images/11.jpeg
-    info: "Info: "
+  - src: images/9-small.jpeg
+    link: images/9.jpeg
+    info: 'Lost<br>52".52"<br>Oil color<br>2016'

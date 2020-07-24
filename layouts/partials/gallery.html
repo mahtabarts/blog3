@@ -7,16 +7,18 @@
   	<link rel="stylesheet" href="{{ $style.Permalink }}">
   </head>
   <body>
-    <div class="container">
-      <div class="gallery">
-        <h1>{{ $data.gallery.title }}</h1>
-        {{ range $data.gallery.imageList }}
-          <img src="/{{ .src | markdownify }}" alt="">
-            <div class="description">
-              {{ .info | markdownify }}
+    <div class="section-a">
+      <h1>{{ $data.gallery.title }}</h1>
+        <div class="container">
+          {{ range $data.gallery.imageList }}
+            <div class="gallery">
+              <a href="/{{ .link | markdownify }}"><img src="/{{ .src | markdownify }}" alt=""></a>
+                <div class="desc">
+                  {{ .info | markdownify }}
+                </div>
             </div>
-        {{ end }}
-      </div>
+            {{ end }}
+        </div>
     </div>
   </body>
 </html>
