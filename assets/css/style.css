@@ -167,7 +167,6 @@ p {
 .section-a {
   padding-top: 50px;
   width: 100%;
-  height: 100vh;
   margin: auto;
   overflow: auto;
   background-image: url('../images/11.jpeg');
@@ -184,7 +183,7 @@ p {
   margin: 69px;
   padding-top: 60px;
   padding-bottom: 60px;
-  font-size: 25px;
+  font-size: 20px;
   color: #FDEBD0;
 }
 
@@ -200,14 +199,16 @@ p {
 .section-a .box2 {
   width: 100%;
   margin: auto;
+  margin-bottom: 900px;
   background-color: #641E16;
   overflow: auto;
 }
 
 .container {
   max-width: 100%;
-  margin: auto;
-  background: #641E16;
+  margin: 30px;
+  margin-bottom: 300px;
+  background: #1B2631;
   overflow: auto;
 }
 
@@ -215,7 +216,7 @@ p {
   margin: 49px;
   border: 1px solid #ccc;
   float: left;
-  width: 390px;
+  width: 360px;
   height: 650px;
 }
 

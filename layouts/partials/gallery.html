@@ -7,8 +7,8 @@
   	<link rel="stylesheet" href="{{ $style.Permalink }}">
   </head>
   <body>
-    <div class="section-a">
-      <h1>{{ $data.gallery.title }}</h1>
+    <section class="section-a">
+      <h1>{{ $data.gallery.identity }}</h1>
         <div class="container">
           {{ range $data.gallery.imageList }}
             <div class="gallery">
@@ -19,6 +19,17 @@
             </div>
             {{ end }}
         </div>
-    </div>
+        <h1>{{ $data.gallery.single }}</h1>
+        <div class="container">
+          {{ range $data.gallery.singlesList }}
+            <div class="gallery">
+              <a href="/{{ .src | markdownify }}"><img src="/{{ .src | markdownify }}" alt=""></a>
+                <div class="desc">
+                  {{ .info | markdownify }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </section>
   </body>
 </html>
