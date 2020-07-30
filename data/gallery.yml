@@ -1,6 +1,6 @@
 identity: "IDENTITY ALBUM"
 statement:
-  - text: "<b>Artist Statement</b><br><br>This collection of paintings under the name of ”IDENTITY”, actually was created according to the inequality of men’s and women’s rights in my country and also in many other countries that have a traditional and religious social infrastructure.<br>One of the manifestations of this inequality is “PATRIARCHY”.<br>In this collection, I have tried to show this catastrophic phenomenon in surrealist paintings by using mostly the patriarchal traditions and culture in such a way that when an audience who has been suffered by this culture, looks at the work, she can catch the meaning of the work immediately.<br> There are some other paintings that are individual and are black and white. These paintings are done with different materials, but they are common in one thing, all are in black and white."
+  - text: "<b>Artist Statement</b><br><br>This collection of paintings under the name of ”IDENTITY”, actually was created according to the inequality of men’s and women’s rights in my country and also in many other countries that have a traditional and religious social infrastructure.<br>One of the manifestations of this inequality is “PATRIARCHY”.<br>In this collection, I have tried to show this catastrophic phenomenon in surrealist paintings by using mostly the patriarchal traditions and culture in such a way that when an audience who has been suffered by this culture, looks at the work, she can catch the meaning of the work immediately."
 
 imageList:
   - src: images/1-small.jpeg
@@ -39,7 +39,7 @@ imageList:
     link: images/9.jpeg
     info: 'Lost<br>52".52"<br>Oil color<br>2016'
 
-single: "SINGLE WORKS"
+single: "Black & White"
 singlesList:
   - src: images/111.jpeg
     info: 'Eyes<br>Pen<br>2018'
