@@ -1,4 +1,7 @@
 identity: "IDENTITY ALBUM"
+statement:
+  - text: "<b>Artist Statement</b><br><br>This collection of paintings under the name of ”IDENTITY”, actually was created according to the inequality of men’s and women’s rights in my country and also in many other countries that have a traditional and religious social infrastructure.<br>One of the manifestations of this inequality is “PATRIARCHY”.<br>In this collection, I have tried to show this catastrophic phenomenon in surrealist paintings by using mostly the patriarchal traditions and culture in such a way that when an audience who has been suffered by this culture, looks at the work, she can catch the meaning of the work immediately.<br> There are some other paintings that are individual and are black and white. These paintings are done with different materials, but they are common in one thing, all are in black and white."
+
 imageList:
   - src: images/1-small.jpeg
     link: images/1.jpeg
@@ -39,9 +42,14 @@ imageList:
 single: "SINGLE WORKS"
 singlesList:
   - src: images/111.jpeg
+    info: 'Eyes<br>Pen<br>2018'
   - src: images/12.jpeg
-  - src: images/13.jpeg
-  - src: images/14.jpeg
-  - src: images/15.jpeg
+    info: 'Fond<br>Pencil<br>2018'
   - src: images/16.jpeg
+    info: 'Ancestor<br>Charcoal pencil<br>2018'
   - src: images/17.jpeg
+    info: 'Ancestor<br>Charcoal pencil<br>2019'
+  - src: images/15.jpeg
+    info: 'Memory<br>Pencil<br>2019'
+  - src: images/13.jpeg
+    info: '?<br>Mechanical pencil<br>2020'

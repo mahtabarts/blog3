@@ -101,10 +101,10 @@ p {
 }
 
 .showcase p {
-  font-size: 20px;
+  font-size: 35px;
   text-align: center;
   line-height: 1.9;
-  color: #999;
+  color: #FBF7E0;
 }
 
 .showcase .button {
@@ -199,7 +199,7 @@ p {
 .section-a .box2 {
   width: 100%;
   margin: auto;
-  margin-bottom: 900px;
+  margin-bottom: 190px;
   background-color: #641E16;
   overflow: auto;
 }

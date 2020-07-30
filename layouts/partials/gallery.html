@@ -9,6 +9,9 @@
   <body>
     <section class="section-a">
       <h1>{{ $data.gallery.identity }}</h1>
+      {{ range $data.gallery.statement }}
+      <p>{{ .text | markdownify }}</p>
+      {{ end }}
         <div class="container">
           {{ range $data.gallery.imageList }}
             <div class="gallery">
